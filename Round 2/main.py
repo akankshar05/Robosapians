@@ -68,7 +68,7 @@ def cvFunc():
             else:
                 port[0]=2
 
-        dictionary, destNo1 = motion1.move_bot(
+        laut_jao1, dictionary, destNo1 = motion1.move_bot(
         location, destination[0][induct[0][destNo1][1]], destNo1, dictionary, induct[0][destNo1][1], port[0], destination, newBotEntry)
        
 
@@ -81,7 +81,7 @@ def cvFunc():
                 port[1]=3
 
         print("BOT2 -", induct[1][destNo2][1], location[port[1]][4], end=" ")
-        laut_jao1, dictionary, destNo2 = motion2.move_bot(
+        laut_jao2, dictionary, destNo2 = motion2.move_bot(
             location, destination[1][induct[1][destNo2][1]], destNo2, dictionary, induct[1][destNo2][1], port[1],  newBotEntry)
         collision(location,dictionary,induct[1][destNo2][1])
 
