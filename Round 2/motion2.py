@@ -464,4 +464,4 @@ def move_bot(location, destination, destNo2, dictionary, letter, port):
         checkStop = []
         w = 1
 
-    return dictionary, destNo2
+    return laut_jao, dictionary, destNo2

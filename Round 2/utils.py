@@ -16,7 +16,7 @@ flag = 0
 colDict = []
 
 def read_data():
-    df = pd.read_csv('os.path.join(ROOT_DIR, 'csv', 'bot1.csv')
+    df = pd.read_csv(os.path.join(ROOT_DIR, 'csv', 'bot1.csv'))
     columns_titles = ["Induct Station", "Destination", "Shipment"]
     df=df.reindex(columns=columns_titles)
     induct = [np.array(df)]
